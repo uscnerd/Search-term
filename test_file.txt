@@ -1,0 +1,25 @@
+Script started on Mon Feb 17 19:32:05 2020
+[?1034hbash-3.2$ python[K[K[K[K[K[Kp
+Display all 183 possibilities? (y or n)
+bash-3.2$ p[Kn
+bash: n: command not found
+bash-3.2$ python3 search.py 
+Enter search term the
+ Choose an option for search 1.)string match 2.) regex match 3.) preprocess 4.) Enter new Search Term 1
+search term  the   hitchhikers.txt  count  24
+search term  the   warp_drive.txt  count  9
+search term  the   french_armed_forces.txt  count  59
+ Choose an option for search 1.)string match 2.) regex match 3.) preprocess 4.) Enter new Search Term 2
+the  count using regex in  hitchhikers.txt   33
+the  count using regex in  warp_drive.txt   9
+the  count using regex in  french_armed_forces.txt   66
+ Choose an option for search 1.)string match 2.) regex match 3.) preprocess 4.) Enter new Search Term 3
+the  count  in hitchhikers.txt 21
+the  count  in warp_drive.txt 6
+the  count  in french_armed_forces.txt 57
+ Choose an option for search 1.)string match 2.) regex match 3.) preprocess 4.) Enter new Search Term 5
+finish
+bash-3.2$ exit
+exit
+
+Script done on Mon Feb 17 19:32:54 2020
