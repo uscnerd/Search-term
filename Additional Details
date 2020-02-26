@@ -1,4 +1,3 @@
-1) Run a performance test that does 2M searches with random search terms, and measures execution time. Which approach is fastest? Why?
 Provide some thoughts on what you would do on the software or hardware side to make this program scale to handle massive content and/or very large request volume (5000 requests/second or more).  
 
 1)Did try to run performance test but not able to run on my system.
