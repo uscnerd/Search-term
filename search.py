@@ -32,6 +32,7 @@ word_count_f1 = {}
 word_count_f2 = {}
 word_count_f3 = {}
 def preprocess():
+	print("PREPROCESS")
 	logfile = open(file1, "r") 
 	for word in logfile.read().split():
 		if word not in word_count_f1:
@@ -53,10 +54,16 @@ def preprocess():
 def preprocess_search(search_word):
 	if search_word in word_count_f1.keys():
 		print(search_word ," count  in", file1, word_count_f1[search_word])  
+	else:# search_word in word_count_f1.keys():
+		print(search_word ," count  in", file1, 0)  
 	if search_word in word_count_f2.keys():
 		print(search_word ," count  in", file2, word_count_f2[search_word])  
+	else:# search_word in word_count_f2.keys():
+		print(search_word ," count  in", file2, 0)  
 	if search_word in word_count_f3.keys():
 		print(search_word ," count  in", file3, word_count_f3[search_word])  
+	else:# search_word in word_count_f3.keys():
+		print(search_word ," count  in", file3, 0)  
 preprocess()   
 search_term = input("Enter search term ")    
 finish = False
